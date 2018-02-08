@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         InjectView.bind(this);
-        Toast.makeText(this , "----->" + textView,Toast.LENGTH_SHORT).show();
+
+        textView.setText("我最帅");
     }
 }
